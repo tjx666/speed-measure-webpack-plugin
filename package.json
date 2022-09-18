@@ -3,6 +3,7 @@
   "version": "1.5.0",
   "description": "Measure + analyse the speed of your webpack loaders and plugins",
   "main": "index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "test": "jest",
     "functional-test": "lerna bootstrap && lerna run full-test",
@@ -49,6 +50,7 @@
     "lerna": "^3.22.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
+    "webpack": "^5.74.0",
     "write-good": "^1.0.8"
   },
   "dependencies": {
